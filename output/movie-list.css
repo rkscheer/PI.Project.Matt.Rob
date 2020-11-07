@@ -10,6 +10,8 @@ body {
 
 a {
     color: #192a56;
+    font-weight: bold;
+    font-family: system-ui, serif;
 }
 
 .h3, h3 {
@@ -30,7 +32,7 @@ td, th {
     text-align: left;
     padding: 8px;
     white-space: nowrap;
-    max-width: 150px;
+    max-width: 500px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -85,6 +87,11 @@ tr:nth-child(odd) {
     height: 200px;
     width: 300px;
     object-fit: contain;
+    border-radius: 30px;
+}
+
+img {
+    border-radius: 30px;
 }
 
 td img {
@@ -205,6 +212,11 @@ td img {
     text-align: left;
 }
 
+
+#tabletext {
+    font-weight: bold;
+    font-family: system-ui, serif;
+}
 
 
 
